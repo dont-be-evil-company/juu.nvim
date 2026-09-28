@@ -5,7 +5,6 @@
 # Juu.nvim
 
 [![Made with love][badge-made-with-love]][contributors]
-[![Development status][badge-development-status]][development-status]
 [![Our manifesto][badge-our-manifesto]][our-manifesto]
 ![Made with lua][badge-made-with-lua]
 [![Latest release][badge-latest-release]][latest-release]
@@ -90,7 +89,7 @@ juu.nvim supports all the usual plugin managers
 
 ```lua
 {
-  'mistweaverco/juu.nvim',
+  'dont-be-evil-company/juu.nvim',
   opts = {},
 }
 ```
@@ -102,7 +101,7 @@ juu.nvim supports all the usual plugin managers
 
 ```lua
 require('packer').startup(function()
-    use {'mistweaverco/juu.nvim'}
+    use {'dont-be-evil-company/juu.nvim'}
 end)
 ```
 
@@ -113,7 +112,7 @@ end)
 
 ```lua
 require "paq" {
-    {'mistweaverco/juu.nvim'};
+    {'dont-be-evil-company/juu.nvim'};
 }
 ```
 
@@ -123,7 +122,7 @@ require "paq" {
   <summary>vim-plug</summary>
 
 ```vim
-Plug 'mistweaverco/juu.nvim'
+Plug 'dont-be-evil-company/juu.nvim'
 ```
 
 </details>
@@ -132,7 +131,7 @@ Plug 'mistweaverco/juu.nvim'
   <summary>dein</summary>
 
 ```vim
-call dein#add('mistweaverco/juu.nvim')
+call dein#add('dont-be-evil-company/juu.nvim')
 ```
 
 </details>
@@ -141,7 +140,7 @@ call dein#add('mistweaverco/juu.nvim')
   <summary>Pathogen</summary>
 
 ```sh
-git clone --depth=1 https://github.com/mistweaverco/juu.nvim.git ~/.vim/bundle/
+git clone --depth=1 https://github.com/dont-be-evil-company/juu.nvim.git ~/.vim/bundle/
 ```
 
 </details>
@@ -150,7 +149,7 @@ git clone --depth=1 https://github.com/mistweaverco/juu.nvim.git ~/.vim/bundle/
   <summary>Neovim native package</summary>
 
 ```sh
-git clone --depth=1 https://github.com/mistweaverco/juu.nvim.git \
+git clone --depth=1 https://github.com/dont-be-evil-company/juu.nvim.git \
   "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/pack/juu.nvim/start/juu.nvim
 ```
 
@@ -678,12 +677,11 @@ require('juu').setup({
 [badge-development-status]: assets/badge-development-status.svg
 [badge-our-manifesto]: assets/badge-our-manifesto.svg
 [badge-made-with-love]: assets/badge-made-with-love.svg
-[badge-latest-release]: https://img.shields.io/github/v/release/mistweaverco/juu.nvim?style=for-the-badge
+[badge-latest-release]: https://img.shields.io/github/v/release/dont-be-evil-company/juu.nvim?style=for-the-badge
 [screenshot-notify]: ./web/static/assets/screenshots/notify.png
 [screenshot-progress]: ./web/static/assets/screenshots/progress.png
-[our-manifesto]: https://mistweaverco.com/manifesto
-[development-status]: https://github.com/orgs/mistweaverco/projects/5/views/1?filterQuery=repo%3Amistweaverco%2Fjuu.nvim
-[contributors]: https://github.com/mistweaverco/juu.nvim/graphs/contributors
+[our-manifesto]: https://the-dont-be-evil-company.com/manifesto
+[contributors]: https://github.com/dont-be-evil-company/juu.nvim/graphs/contributors
 [logo]: assets/logo.svg
 [swahili]: https://en.wikipedia.org/wiki/Swahili_language
-[latest-release]: https://github.com/mistweaverco/juu.nvim/releases/latest
+[latest-release]: https://github.com/dont-be-evil-company/juu.nvim/releases/latest
